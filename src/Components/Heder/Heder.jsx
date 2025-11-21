@@ -18,7 +18,7 @@ const Heder = () => {
         </div>
       ))}
       <div className={scss.contai_button}>
-        <Link to={"/.Home_bleck"}>
+        <Link to={"/Home_bleck"}>
           <button>
             Book A Meeting <img src={long_right} alt="" />
           </button>

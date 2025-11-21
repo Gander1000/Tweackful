@@ -28,7 +28,7 @@ function Home() {
             </div>
 
             <div className={scss.contai_button_p}>
-              <Link to={"/.Home_bleck"}>
+              <Link to={"/Home_bleck"}>
                 {" "}
                 <button>
                   Book A Meeting <img src={long_right} alt="" />

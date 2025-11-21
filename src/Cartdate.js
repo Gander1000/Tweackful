@@ -5,9 +5,9 @@ const Title = [
     img: Logo,
     ingirdiens: [
       { name: "Home", path: "/" },
-      { name: "Features", path: "/.Features" },
-      { name: "Pricing", path: "/.Pricing", },
-      { name: "About Us" },
+      { name: "Features", path: "/Features", },
+      { name: "Pricing", path: "/Pricing", },
+      { name: "About us", path: "/Adout_us", },
       { name: "Help" },
     ],
   },
