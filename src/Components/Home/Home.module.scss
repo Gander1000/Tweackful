@@ -1,0 +1,71 @@
+.Home{
+    display: flex;
+    align-items: center;
+    padding: 8vw;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 18.6vw;
+}
+
+.contai_title{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    
+
+    h1{
+        font-size: 64px;
+        color: #191919;
+        line-height: 1;
+    }
+
+    span{
+        font-size: 20px;
+        color: #1E1E1E;
+        line-height: 1.3;
+    }
+}
+
+.contai_button_p{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+    }
+
+    p{
+        font-size: 16px;
+        color: #1E1E1E;
+        line-height: 1.3;
+    }
+
+    button{
+        padding: 13px 20px;
+        background-color: #2E4FD7;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #FFFFFF;
+        border: none;
+        transition: 0.3s;
+
+        &:hover{
+            background-color: #46BA71;
+        }
+    }
+}
+
+.contai_logo{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+    
+}
+

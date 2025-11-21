@@ -1,0 +1,70 @@
+.Pricing {
+  display: flex;
+  flex-direction: column;
+  padding: 8vw;
+  background-color: #052825;
+  gap: 40px;
+
+  h1 {
+    font-size: 64px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -1.16px;
+  }
+
+  span {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 34px;
+    letter-spacing: -0.43px;
+    display: inline-block;
+    transform: skewX(-10deg);
+  }
+
+  button {
+    width: 16vw;
+    padding: 18px 20px;
+    border: none;
+    background-color: #2e4fd7;
+    color: #FFFFFF;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #46ba71;
+    }
+  }
+}
+
+.contai_logo_title {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.contai_title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+  }
+}

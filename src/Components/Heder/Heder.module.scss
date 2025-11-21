@@ -1,0 +1,49 @@
+.Heder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 8vw;
+}
+
+.contai_a_logo{
+    display: flex;
+    align-items: center;
+    gap: 2.5vw;
+
+    a{
+        text-decoration: none;
+        font-size: 17px;
+        color: #191919;
+        transition: 0.3s;
+
+        &:hover{
+            color: #46BA71;
+        }
+    }
+}
+
+.contai_button{
+    display: flex;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+    }
+
+    button{
+        display: flex;
+        align-items: center;
+        background-color: #2E4FD7;
+        gap: 10px;
+        padding: 9px 17px;
+        color: #FFFFFF;
+        border: none;
+        transition: 0.3s;
+        text-decoration: none;
+
+        &:hover{
+            background-color: #46BA71;
+        }
+    }
+}
+
