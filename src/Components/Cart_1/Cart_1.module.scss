@@ -1,0 +1,42 @@
+.Cart_1 {
+  display: flex;
+  padding: 8vw;
+  flex-direction: column;
+  gap: 40px;
+
+  h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: -0.94px;
+    color: #18191f;
+  }
+}
+
+.Cart_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.carte {
+  display: flex;
+  gap: 40px;
+}
+
+.con_title {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #191919;
+    line-height: 30px;
+    letter-spacing: -0.36px;
+    padding-bottom: 10px;
+  }
+
+
+}
