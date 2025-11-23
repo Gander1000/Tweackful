@@ -11,7 +11,7 @@ function Cart_2 () {
             <div className={scss.cart} key={index}>
                 <div className={scss.contai_div_hr}>
                     <div className={scss.cnop}></div>
-                    <hr />
+                    {index !== Cart_2date.length - 1 && <hr/>}
                 </div>
                 <h3>{item.h3}</h3>
                 {item.span.map((ing, i) => (
